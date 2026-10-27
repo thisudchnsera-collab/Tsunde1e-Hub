@@ -1,4 +1,5 @@
--- Load UI Library (Orion)
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 -- Create Main Window
@@ -124,3 +125,4 @@ ToggleButton.MouseButton1Click:Connect(function()
 end)
 
 OrionLib:Init()
+
